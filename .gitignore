@@ -1,0 +1,8 @@
+*.key
+*.pem
+
+tls.crt
+tls.key
+
+*.tmp
+*.swp

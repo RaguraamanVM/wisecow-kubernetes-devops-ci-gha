@@ -1,0 +1,9 @@
+.git
+.github
+.gitignore
+.dockerignore
+README.md
+LICENSE
+k8s/
+*.log
+*.tmp
