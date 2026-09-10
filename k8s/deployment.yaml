@@ -14,7 +14,7 @@ spec:
     spec:
       containers: 
         - name: wisecow-cont
-          image: wisecow:v1
+          image: raguraaman/wisecow-kubernetes-devops-ci-gha:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 4499
