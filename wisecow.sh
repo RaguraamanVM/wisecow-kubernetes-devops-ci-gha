@@ -35,7 +35,7 @@ prerequisites() {
 
 main() {
 	prerequisites
-	echo "Wisdom served on port=$SRVPORT..."
+	echo "Wisdom served on port=$SRVPORT...."
 
 	while [ 1 ]; do
 		cat $RSPFILE | nc -lN $SRVPORT | handleRequest
