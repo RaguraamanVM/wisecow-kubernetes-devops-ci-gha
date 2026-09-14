@@ -10,11 +10,5 @@ nodes:
       - containerPort: 443
         hostPort: 443
         protocol: TCP
-    extraMounts:
-      - hostPath: /sys/kernel/security
-        containerPath: /sys/kernel/security
 
   - role: worker
-    extraMounts:
-      - hostPath: /sys/kernel/security
-        containerPath: /sys/kernel/security
